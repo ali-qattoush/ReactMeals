@@ -1,0 +1,84 @@
+.cartModalContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #faf3c9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-width: 400px;
+  width: 100%;
+}
+
+.cartHeader {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #8b4513;
+}
+
+.cartItems {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.itemName {
+  font-weight: bold;
+}
+
+.itemPrice {
+  color: #8b4513;
+}
+
+.closeButton {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.quantityButtons {
+  display: flex;
+  align-items: center;
+}
+
+.quantityButtons button {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.totalSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.totalLabel {
+  font-weight: bold;
+}
+
+.totalAmount {
+  color: #8b4513;
+}

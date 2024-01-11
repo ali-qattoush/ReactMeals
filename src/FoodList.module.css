@@ -1,0 +1,59 @@
+.foodListContainer {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 50%;
+}
+
+.foodItem {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.foodName {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.foodDescription {
+  font-size: 14px;
+}
+
+.foodPrice {
+  color: #8b4513;
+}
+
+.addButton {
+  background-color: #8b4513;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.inputButtonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.amountInput {
+  margin-right: 10px;
+  width: 50px
+}
+
+.foodDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
